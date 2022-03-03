@@ -1,0 +1,42 @@
+#signUp{
+    min-height: 88vh;
+    margin: 30px 300px;
+}
+
+.signUp__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signUp__item--left{
+    display: flex;
+    margin-right: 73px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.signUp__item--left h1{
+    font-size: 7.5rem;
+    font-weight: 500;
+    color: var(--dark-color);
+    margin-bottom: 2.5rem;
+    line-height: 8rem;
+}
+
+.signUp__item--left p{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-left: 3px;
+}
+
+.signUp__item--right img{
+    margin-left: 50px;
+    opacity: .9rem;
+    width: 300px;
+    height: 200px;
+}
+
+button{width: 180px;
+margin-top: 30px;}

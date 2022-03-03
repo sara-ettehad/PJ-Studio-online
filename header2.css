@@ -1,0 +1,10 @@
+.header{
+    min-height: 10vh;
+}
+
+.header h1{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
