@@ -1,15 +1,15 @@
-#hero{
+#Customize{
     min-height: 88vh;
 }
 
-.hero__wrapper{
+.Customize__wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.hero__item--right{
+.Customize__item--right{
     display: flex;
     margin-right: 73px;
     flex-direction: column;
@@ -18,7 +18,7 @@
     margin-right: 40px;
 }
 
-.hero__item--right h1{
+.Customize__item--right h1{
     font-size: 7.5rem;
     font-weight: 500;
     color: var(--dark-color);
@@ -26,20 +26,20 @@
     line-height: 8rem;
 }
 
-.hero__item--right p{
+.Customize__item--right p{
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-left: 3px;
 }
 
-.hero__item--left img{
+.Customize__item--left img{
     margin-left: 50px;
     opacity: .9rem;
     width: 600px;
     height: 500px;
 }
 
-.hero-columns{
+.Customize-columns{
     border-radius: 5px;
     height: 100px;
     margin-top: 15px;
