@@ -1,66 +1,81 @@
 #footer{
-    min-height: 88vh;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
+    -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
+    transform: translateY(-2rem); 
+    padding: 30px 50px 10px;
 }
 
-.footer__wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
 }
 
-.footer__item--right{
+.footer-grid-second{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 45px;
+}
+.footer-grid-third{
     display: flex;
-    margin-right: 73px;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+    margin-top: 45px;
 }
 
-.footer__item--right h1{
-    font-size: 7.5rem;
-    font-weight: 500;
-    color: var(--dark-color);
-    margin-bottom: 2.5rem;
-    line-height: 8rem;
-}
-
-.footer__item--right p{
+.footer-wrapper p{
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-left: 3px;
+    margin: 10px 0px 10px;
 }
 
-.footer__item--left img{
-    margin-left: 50px;
-    opacity: .9rem;
-    width: 600px;
-    height: 500px;
-}
-.icons i{
-    padding: 1.5rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-    color: var(--light-color);
+.footer-grid-second li{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-left: 3px;
+    margin: 10px 0px 10px;
 }
 
-i.fa-compass-drafting{
-    background-color: #38b000;
-}
-i.fa-window-frame{
-    background-color: #90f1ef;
+.paragraph{
+    width: 80%;
 }
 
-.icons{
-    margin-top: 20px;
-    margin-right: 40px;
-}
-
-.footer--icons{
+.footer-grid-input{
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    align-items: center;
+}
+
+.send{
+    width: auto;
+    height: 40px;
+    position: relative;
+    left: -92px;
+    top: -25px;
+}
+
+.input{
+    padding: 10px;
+    height: 50px;
+    width: 280px;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-like{
+    border-radius: 50%;
+    border-color: var(--primary-color);
+    background-color: var(--light-color);
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    color: var(--primary-color);
+}
+
+.btn-like:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
 }

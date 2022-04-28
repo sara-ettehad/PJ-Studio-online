@@ -1,11 +1,12 @@
 #Customize{
     min-height: 88vh;
+    margin: 40px 30px;
 }
 
 .Customize__wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
