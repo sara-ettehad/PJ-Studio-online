@@ -10,15 +10,15 @@
     align-items: center;
 }
 
-.process-graid h2{
+.process-box h2{
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 3.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     color: var(--dark-color);
 }
 
-.process-graid p {
+.process-box p {
     font-size: 1.8rem;
     opacity: 0.9;
     color: var(--secondary-color);
@@ -66,12 +66,9 @@ i.fa-user-check{
     background-color: #e74c3c;
 }
 
-.process-active{
+.process-box:hover{
     transition: all 0.3s ease-in-out;
     box-shadow: 3rem 2.5rem 3rem 2rem rgb(128, 128, 128 , 8.897);
     -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgb(128, 128, 128 , 8.897);
-}
-
-.process-active:hover{
     transform: translateY(-2rem);
 }

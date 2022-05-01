@@ -12,7 +12,8 @@
 
 .mobile__item--right{
     display: flex;
-    margin-right: 73px;
+    margin-left: 100px;
+    margin-right: 50px;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
@@ -35,7 +36,7 @@
 .mobile__item--left img{
     margin-left: 50px;
     opacity: .9rem;
-    width: 200px;
+    width: 250px;
     height: 500px;
 }
 .icons i{

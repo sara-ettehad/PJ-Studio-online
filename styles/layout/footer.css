@@ -31,10 +31,15 @@
 }
 
 .footer-grid-second li{
+    cursor: pointer;
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-left: 3px;
     margin: 10px 0px 10px;
+}
+
+.footer-grid-second li:hover{
+    color: var(--primary-color);
 }
 
 .paragraph{
