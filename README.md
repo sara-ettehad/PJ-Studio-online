@@ -1,2 +1,3 @@
 # PJ-Studio
-## Live Preview: https://parisa-ettd.github.io/PJ-Studio/
+
+#### I was mentored by <a href="https://github.com/dansalahi">@dansalahi</a> 👌
