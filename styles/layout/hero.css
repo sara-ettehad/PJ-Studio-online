@@ -1,5 +1,6 @@
 #hero{
-    min-height: 88vh;
+    margin: 7rem 0rem;
+    gap: 10rem;
 }
 
 .hero__wrapper{
@@ -11,7 +12,6 @@
 
 .hero__item--left{
     display: flex;
-    margin-left: 73px;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
@@ -28,7 +28,6 @@
 .hero__item--left p{
     color: var(--secondary-color);
     font-size: 2rem;
-    margin-left: 3px;
 }
 .left--item__demo{
     display: flex;

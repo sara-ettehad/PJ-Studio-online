@@ -1,52 +1,80 @@
-#process{
-    min-height: 20vh;
-}
+
 
 .process-wrapper{
-    padding: 50px 100px;
+    gap: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-.process-box h2{
-    font-size: 3.5rem;
+
+.process-wrapper .process__item:nth-child(1) {
+    grid-area: title;
+}
+.process-wrapper .process__item:nth-child(2) {
+    grid-area: content1;
+}
+.process-wrapper .process__item:nth-child(3) {
+    grid-area: content2;
+}
+.process-wrapper .process__item:nth-child(4) {
+    grid-area: content3;
+}  
+
+.process__item{
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.process__item h2 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 700;
-    line-height: 3.5rem;
-    margin-bottom: 2.5rem;
+    line-height: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 1.5rem;
     color: var(--dark-color);
 }
 
-.process-box p {
-    font-size: 1.8rem;
+.process__item p {
+    font-size: 1.7rem;
     opacity: 0.9;
     color: var(--secondary-color);
 }
 
-.process-box{
-    padding: 2.5rem;
+.process-box {
+    padding: 3rem;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 1.5rem;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    background-color: #f4f4ff;
+    box-shadow: 0.1rem 0.1rem 1rem 0 rgb(0 0 0 / 10%);
 }
 
-.process-box i{
-    padding: 1.5rem;
+.process-box i {
+    font-size: 3rem;
+    padding: 2rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
     color: var(--light-color);
+    transition: all 0.4s ease-in-out;
+    border: 1px solid;
 }
 
-.process-box h3{
+.process-box h3 {
     font-size: 2rem;
     font-weight: 600;
     color: var(--dark-color);
     margin-bottom: 1.5rem;
 }
-
+  
 .process-box p {
     font-size: 1.5rem;
     font-weight: 400;
@@ -68,7 +96,28 @@ i.fa-user-check{
 
 .process-box:hover{
     transition: all 0.3s ease-in-out;
-    box-shadow: 3rem 2.5rem 3rem 2rem rgb(128, 128, 128 , 8.897);
-    -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgb(128, 128, 128 , 8.897);
+    box-shadow: 3rem 2.5rem 3rem 2rem none;
+    -webkit-box-shadow: 3rem 2.5rem 3rem 2rem none;
     transform: translateY(-2rem);
+}
+
+.process-box:hover i.fa-arrow-right-to-bracket{
+    color: #f39c12;
+    background: snow;
+    box-shadow: 0.1rem 0.1rem 1rem 0 #f39c12;
+    border:1px solid #f39c12;
+}
+
+.process-box:hover i.fa-handshake{
+    color: #2980b9;
+    background: snow;
+    box-shadow: 0.1rem 0.1rem 1rem 0 #2980b9;
+    border:1px solid #2980b9;
+}
+
+.process-box:hover i.fa-user-check{
+    color: #e74c3c;
+    background: snow;
+    box-shadow: 0.1rem 0.1rem 1rem 0 #e74c3c;
+    border:1px solid #e74c3c;
 }
