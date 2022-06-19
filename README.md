@@ -1,3 +1,13 @@
-![logo](./../pj%20logo.png "logo")
+<div id="top"></div>
+<br />
+<div align="center">
+    <img src="./images/pj%20logo.png">
 
-#### I was mentored by <a href="https://github.com/dansalahi">@dansalahi</a> 👌
+  <h3 align="center">.: PJ Online Studio :.</h3>
+
+  <p align="center">
+    Helps you organize your income and expenses!
+     <br />
+    <a href="https://parisa-ettehad.github.io/PJ-Studio/" target="_blank"><strong>View Live</strong></a>
+  </p>
+</div>
