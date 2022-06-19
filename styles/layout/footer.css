@@ -1,8 +1,4 @@
 #footer{
-    transition: all 0.3s ease-in-out;
-    box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
-    -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
-    transform: translateY(-2rem); 
     padding: 30px 50px 10px;
 }
 
