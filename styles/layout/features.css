@@ -1,7 +1,4 @@
-#features{
-    min-height: 88vh;
-    margin: 30px 60px;
-}
+
 
 .features__wrapper{
     display: flex;
@@ -18,10 +15,10 @@
 }
 
 .features__item--left{
+    max-width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-right: 50px;
+    align-items: flex-start;
 }
 
 .features__item--left h1{

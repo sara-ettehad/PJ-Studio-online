@@ -1,7 +1,3 @@
-#Customize{
-    min-height: 88vh;
-    margin: 40px 30px;
-}
 
 .Customize__wrapper{
     display: flex;
@@ -41,24 +37,30 @@
 }
 
 .Customize-columns{
-    border-radius: 5px;
+    border-radius: 15px;
     height: 100px;
-    margin-top: 15px;
-    width: 350px;
-	
+    margin-top: 22px;
+    padding: 5px;
+    width: 360px;
+    box-shadow: rgba(0, 0, 0, 0.1) 4px 5px 6px;
+}
+
+.Customize-columns:hover{
+    
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3rem 2.5rem 3rem 2rem none;
+    -webkit-box-shadow: 3rem 2.5rem 3rem 2rem none;
+    transform: translateX(-2rem);
 }
 
 .sec1{
-    box-shadow: -4px 0 0px 0px #f39c12;
-    -webkit-box-shadow: -4px 0 0px 0px #f39c12;
+    border-left:4px solid #f39c12;
 }
 
 .sec2{
-    box-shadow: -4px 0 0px 0px blue;
-    -webkit-box-shadow: -4px 0 0px 0px blue;
+    border-left:4px solid blue;
 }
 
 .sec3{
-    box-shadow: -4px 0 0px 0px green;
-    -webkit-box-shadow: -4px 0 0px 0px green;
+    border-left:4px solid green;
 }

@@ -1,21 +1,21 @@
 #mobile-app{
-    min-height: 88vh;
-    margin: 30px 60px;
+    justify-content: center;
 }
 
 .mobile__wrapper{
+    background-color: #f4f4ff;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .mobile__item--right{
+    max-width: 500px;
+    padding: 8rem 3rem;
+    background-color: white;
     display: flex;
-    margin-left: 100px;
-    margin-right: 50px;
     flex-direction: column;
-    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -30,11 +30,14 @@
 .mobile__item--right p{
     color: var(--secondary-color);
     font-size: 1.5rem;
-    margin-left: 3px;
+}
+
+
+.mobile__item--left{
+    max-width: 0px;
 }
 
 .mobile__item--left img{
-    margin-left: 50px;
     opacity: .9rem;
     width: 250px;
     height: 500px;
@@ -49,13 +52,18 @@
 i.fa-compass-drafting{
     background-color: #38b000;
 }
-i.fa-window-frame{
+i.fa-apple{
     background-color: #90f1ef;
 }
 
 .icons{
-    margin-top: 20px;
-    margin-right: 40px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 1.5rem;
+    transition: all 0.4s ease-in-out;
 }
 
 .mobile--icons{
@@ -65,4 +73,25 @@ i.fa-window-frame{
     margin-top: 1rem;
     margin-right: 2rem;
     align-items: center;
+}
+
+.icons:hover{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3rem 2.5rem 3rem 2rem none;
+    -webkit-box-shadow: 3rem 2.5rem 3rem 2rem none;
+    transform: translateY(-1rem);
+}
+
+.icons:hover i.fa-compass-drafting{
+    color: #38b000;
+    background: snow;
+    box-shadow: 0.1rem 0.1rem 1rem 0 #38b000;
+    border:1px solid #38b000;
+}
+
+.icons:hover i.fa-apple{
+    color: #90f1ef;
+    background: snow;
+    box-shadow: 0.1rem 0.1rem 1rem 0 #90f1ef;
+    border:1px solid #90f1ef;
 }
