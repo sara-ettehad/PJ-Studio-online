@@ -44,32 +44,9 @@ a{
 }
 
 .container{
-     display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: column;
-    gap: 6rem;
-    background: var(--bg-color);
-    transition: background 0.5s;
-    border-radius: 2rem;
-
-    @media (max-width: 1255px) {
-      gap: 3rem;
-
-      .header__functionalities {
-        gap: 1.5rem;
-      }
-    }
-    @media (max-width: 1160px) {
-      .header__functionalities .btn {
-        display: none;
-      }
-      .header__functionalities {
-        justify-content: initial;
-        flex-grow: 0;
-      }
-    }
+    width: min(90%, 160rem);
+    margin: auto;
+    padding: 0 1rem;
 }
 
 .btn{
