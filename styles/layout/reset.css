@@ -44,12 +44,32 @@ a{
 }
 
 .container{
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
-    padding: 0 1rem ;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 6rem;
+    background: var(--bg-color);
+    transition: background 0.5s;
+    border-radius: 2rem;
+
+    @media (max-width: 1255px) {
+      gap: 3rem;
+
+      .header__functionalities {
+        gap: 1.5rem;
+      }
+    }
+    @media (max-width: 1160px) {
+      .header__functionalities .btn {
+        display: none;
+      }
+      .header__functionalities {
+        justify-content: initial;
+        flex-grow: 0;
+      }
+    }
 }
 
 .btn{
