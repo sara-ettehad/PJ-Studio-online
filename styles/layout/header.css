@@ -2,21 +2,21 @@
     min-height: 10vh;
 }
 
-.navbar{
+.navbar__wrapper{
     display: flex;
     gap: 7rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-.navbar__logo img{
+.navbar__wrapper--logo img{
     position: relative;
     top: 1.5rem;
     height: 7rem;
 }
 
-.nav__lists{
+.navbar__wrapper--list{
     position: relative;
     top: 1rem;
     display: flex;
@@ -27,14 +27,11 @@
 
 .nav__list{
     margin: 0 3rem;
-}
-
-.nav__link{
     color: var(--dark-color);
     transition: all .4s ease-in-out;
 }
 
-.nav__link:hover{
+.nav__list:hover{
     color: var(--primary-color);
 }
 

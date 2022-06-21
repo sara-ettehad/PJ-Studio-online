@@ -1,72 +1,37 @@
 #footer{
-    padding: 30px 50px 10px;
+    display: block;
 }
 
-.footer-wrapper{
+.footer__wrapper{
+    margin: auto;
+    padding: 3rem min(7rem, 5vw);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    justify-content: space-between;
+    gap: 2rem 2rem;
 }
 
-.footer-grid-second{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 45px;
-}
-.footer-grid-third{
-    display: flex;
-    flex-direction: column;
-    margin-top: 45px;
-}
-
-.footer-wrapper p{
+.footer__wrapper p{
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-left: 3px;
     margin: 10px 0px 10px;
 }
 
-.footer-grid-second li{
-    cursor: pointer;
-    color: var(--secondary-color);
-    font-size: 1.5rem;
-    margin-left: 3px;
-    margin: 10px 0px 10px;
-}
-
-.footer-grid-second li:hover{
-    color: var(--primary-color);
+.footer__wrapper--grid ul li:not(:last-child) {
+    margin-bottom: 1rem;
 }
 
 .paragraph{
     width: 80%;
 }
 
-.footer-grid-input{
+.social__links{
     display: flex;
     flex-direction: row;
 }
 
-.send{
-    width: auto;
-    height: 40px;
-    position: relative;
-    left: -92px;
-    top: -25px;
-}
-
-.input{
-    padding: 10px;
-    height: 50px;
-    width: 280px;
-}
-
-.social-links{
-    display: flex;
-    flex-direction: row;
-}
-
-.btn-like{
+.btn__like{
     border-radius: 50%;
     border-color: var(--primary-color);
     background-color: var(--light-color);
@@ -76,7 +41,50 @@
     color: var(--primary-color);
 }
 
-.btn-like:hover{
+.btn__like:hover{
     background-color: var(--primary-color);
     color: var(--light-color);
+}
+
+.footer__grid--second{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 45px;
+}
+
+.footer__grid--second li{
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-left: 3px;
+    margin: 10px 0px 10px;
+}
+
+.footer__grid--second li:hover{
+    color: var(--primary-color);
+}
+
+.footer__grid--third{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.footer__grid--input{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    padding: 10px;
+    height: 50px;
+    width: 280px;
+}
+
+.btn__send{
+    width: auto;
+    height: 40px;
+    position: relative;
+    left: -94px;
+    top: 5px;
 }

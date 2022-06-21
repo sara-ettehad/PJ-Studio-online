@@ -12,22 +12,20 @@
 <body>
     <header id="header">
         <div class="container">
-            <nav class="navbar">
-                <div class="navbar__logo">
+            <nav class="navbar__wrapper">
+                <div class="navbar__wrapper--logo">
                     <img src="./images/pj logo.png">
                 </div>
 
-                <div class="navbar__nav">
-                    <ul class="nav__lists">
-                        <li class="nav__list"><a class="nav__link" href="">Home</a></li>
-                        <li class="nav__list"><a class="nav__link" href="">About Us</a></li>
-                        <li class="nav__list"><a class="nav__link" href="">Pricing</a></li>
-                        <li class="nav__list"><a class="nav__link" href="">Feadback</a></li>
-                    </ul>
-                </div>
+                <ul class="navbar__wrapper--list">
+                    <li class="nav__list"><a class="nav__link" href="">Home</a></li>
+                    <li class="nav__list"><a class="nav__link" href="">About Us</a></li>
+                    <li class="nav__list"><a class="nav__link" href="">Pricing</a></li>
+                    <li class="nav__list"><a class="nav__link" href="">Feadback</a></li>
+                </ul>
 
-                <div class="navbar__demo">
-                    <button type="button" class="btn btn-primary">Request a demo</button>
+                <div class="navbar__wrapper--demo">
+                    <button type="button" class="btn btn__primary">Request a demo</button>
                 </div>
 
             </nav>
@@ -45,12 +43,12 @@
                             Development
                         </h1>
                         <p>Helps you to organize your income and expenses</p>
-                        <div class="left--item__demo">
-                            <button type="button" class="btn btn-primary hero__btn">
+                        <div class="left__item--demo">
+                            <button type="button" class="btn btn__primary hero__btn">
                                 Try free demo
                                 <i class="fa-solid fa-angle-down"></i>
                             </button>
-                            <div class="left--item__right">
+                            <div class="left__item--right">
                                 <p>-Web, IOS and Android</p>
                             </div>
                         </div>
@@ -66,32 +64,32 @@
 
         <section id="process">
             <div class="container">
-                <div class="process-wrapper">
-                    <div class="process__item">
+                <div class="process__wrapper">
+                    <div class="process__wrapper--item">
                         <h2>
                             Our<br> Process
                         </h2>
                         <p>Helps ypu to organize your income and expenses</p>
                     </div>
 
-                    <div class="process__item">
-                        <div class="process-box">
+                    <div class="process__wrapper--item">
+                        <div class="item__box">
                         <i class="fa-solid fa-arrow-right-to-bracket"></i>
                         <h3>Daily Standup</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div class="process__item">
-                        <div class="process-box">
+                    <div class="process__wrapper--item">
+                        <div class="item__box">
                             <i class="fa-solid fa-handshake"></i>
                             <h3>Daily Standup</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
-                    <div class="process__item">
-                        <div class="process-box">
+                    <div class="process__wrapper--item">
+                        <div class="item__box">
                             <i class="fa-solid fa-user-check"></i>
                             <h3> Uder Testing</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -101,53 +99,55 @@
                 </div>
             </div>
         </section>
-        <section id="mobile-app">
-            <div class="mobile__wrapper">
+        <section id="mobile">
+            <div class="container">
+                <div class="mobile__wrapper">
 
-                <div class="mobile__item--left">
-                    <img src="./images/phone-app.png"/>
-                </div>
-
-                <div class="mobile__item--right">
-                    <p>FEATURES</p>
-                    <h1>
-                        Mobile App
-                    </h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum assumenda ea non ratione cumque neque quia voluptates natus, aspernatur tempore porro amet reprehenderit repudiandae quam, saepe rem delectus iure!</p>
-                    <div class="mobile--icons">
-                        <div class="icons">
-                            <i class="fa-solid fa-compass-drafting"></i>
-                            <h3> UI & UX Design</h3>
-                            <p>Lorem ipsum dolor sit </p>
-                        </div>    
-                        <div class="icons">
-                            <i class="fa-brands fa-apple"></i>
-                            <h3> Native IOS App</h3>
-                            <p>Lorem ipsum dolor sit </p>
+                    <div class="mobile__item--left">
+                        <img src="./images/phone-app.png"/>
+                    </div>
+    
+                    <div class="mobile__item--right">
+                        <p>FEATURES</p>
+                        <h1>
+                            Mobile App
+                        </h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum assumenda ea non ratione cumque neque quia voluptates natus, aspernatur tempore porro amet reprehenderit repudiandae quam, saepe rem delectus iure!</p>
+                        <div class="item__icons">
+                            <div class="icons">
+                                <i class="fa-solid fa-compass-drafting"></i>
+                                <h3> UI & UX Design</h3>
+                                <p>Lorem ipsum dolor sit </p>
+                            </div>    
+                            <div class="icons">
+                                <i class="fa-brands fa-apple"></i>
+                                <h3> Native IOS App</h3>
+                                <p>Lorem ipsum dolor sit </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="Customize">
-            <h1 class="customize-header">Customize Offers</h1>
+        <section id="customize">
             <div class="container">
-                <div class="Customize__wrapper">
+                <h1 class="customize__header">Customize Offers</h1>
+                <div class="customize__wrapper">
 
-                    <div class="Customize__item--left">
+                    <div class="customize__item--left">
                         <img src="./images/hero.png"/>
                     </div>
 
-                    <div class="Customize__item--right">
-                        <div class="Customize-columns  sec1">
+                    <div class="customize__item--right">
+                        <div class="customize__columns  sec1">
                             <h2> Custome CMS</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         </div>    
-                        <div class="Customize-columns sec2">
+                        <div class="customize__columns sec2">
                             <h2> Payment Processing</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         </div>
-                        <div class="Customize-columns sec3">
+                        <div class="customize__columns sec3">
                             <h2> App Store Submission</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         </div>
@@ -168,7 +168,7 @@
                             Web Development
                         </h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum assumenda ea non ratione cumque neque quia voluptates natus, aspernatur tempore porro amet reprehenderit repudiandae quam, saepe rem delectus iure!</p>
-                        <div class="features--icons">
+                        <div class="features__icons">
                             <div class="icons">
                                 <i class="fa-solid fa-compass-drafting"></i>
                                 <h3> UI & UX Design</h3>
@@ -191,21 +191,21 @@
         </section>
 
 
-        <section id="signUp">
+        <section id="signup">
             <div class="container">
-                <div class="signUp__wrapper">
+                <div class="signup__wrapper">
 
-                    <div class="signUp__item--left">
+                    <div class="signup__item--left">
                         <h1>
                             Sign up first
                         </h1>
                         <p>There will be many benefits that you will get</p>
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" class="btn btn__primary btn__signup">
                                 Sign Up Now
                         </button>
                     </div>
                     
-                    <div class="signUp__item--right">
+                    <div class="signup__item--right">
                         <img src="./images/SignUp.png"/>
                     </div>
 
@@ -218,58 +218,57 @@
     <footer>
         <section id="footer">
             <div class="container">
-                <div class="footer-wrapper">
+                <div class="footer__wrapper">
 
-                    <div class="footer-grid-first">
-                        <div class="footer-logo">
+                    <div class="footer__wrapper--grid">
+                        <div class="footer__logo">
                             <img src="./images/pj logo.png">
                         </div>
                         <div class="paragraph">
                             <p>Lorem ipsum eos rerum voluptatem unde tempore culpa reprehenderit.</p>
                         </div>
-                        <div class="social-links">
-                            <button type="button" class="btn btn-primary btn-like">
+                        <div class="social__links">
+                            <button type="button" class="btn btn__primary btn__like">
                                 <i class="fa-brands fa-facebook"></i>
                             </button>
-                            <button type="button" class="btn btn-primary btn-like">
+                            <button type="button" class="btn btn__primary btn__like">
                                 <i class="fa-brands fa-twitter"></i>
                             </button>
-                            <button type="button" class="btn btn-primary btn-like">
+                            <button type="button" class="btn btn__primary btn__like">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </button>
-                            <button type="button" class="btn btn-primary btn-like">
+                            <button type="button" class="btn btn__primary btn__like">
                                 <i class="fa-regular fa-at"></i>
                             </button>
                         </div>
                     </div>
 
-                    <div class="footer-grid-second">
-                        <div class="ul-footer-grid">
-                            <h3>Resources</h3>
-                            <ul>
-                                <li>Home</li>
-                                <li>Who we are</li>
-                                <li>What we do</li>
-                                <li>Projects</li>
-                            </ul>
-                        </div>
-                        <div class="ul-footer-grid">
-                                <h3>Usefull Links</h3>
-                            <ul>
-                                <li>Team</li>
-                                <li>Blog</li>
-                                <li>Contact us</li>
-                                <li>Location</li>
-                            </ul>
-                        </div>
+                    <div class="footer__wrapper--grid">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li>Home</li>
+                            <li>Who we are</li>
+                            <li>What we do</li>
+                            <li>Projects</li>
+                        </ul>
                     </div>
 
-                    <div class="footer-grid-third">
+                    <div class="footer__wrapper--grid">
+                            <h3>Usefull Links</h3>
+                        <ul>
+                            <li>Team</li>
+                            <li>Blog</li>
+                            <li>Contact us</li>
+                            <li>Location</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__wrapper--grid">
                         <h3>NEWSLETTER</h3>      
                         <P>Over 25000 people have subscribed</P>
-                        <div class="footer-grid-input">
+                        <div class="footer__grid--input">
                             <input type="text" placeholder="Enter your email" autofocus class="input">
-                            <button type="button" class="btn btn-primary send">
+                            <button type="button" class="btn btn__primary btn__send">
                                 Subscribe
                             </button>
                         </div>
@@ -278,6 +277,7 @@
             </div> 
         </section>
     </footer>
+    
 
 </body>
 </html>

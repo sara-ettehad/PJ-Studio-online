@@ -1,28 +1,26 @@
-
-
-.process-wrapper{
+.process__wrapper{
     gap: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 
-.process-wrapper .process__item:nth-child(1) {
+.process__wrapper .process__wrapper--item:nth-child(1) {
     grid-area: title;
 }
-.process-wrapper .process__item:nth-child(2) {
+.pprocess__wrapper .process__wrapper--item:nth-child(2) {
     grid-area: content1;
 }
-.process-wrapper .process__item:nth-child(3) {
+.process__wrapper .process__wrapper--item:nth-child(3) {
     grid-area: content2;
 }
-.process-wrapper .process__item:nth-child(4) {
+.process__wrapper .process__wrapper--item:nth-child(4) {
     grid-area: content3;
 }  
 
-.process__item{
+.process__wrapper--item{
     max-width: 30rem;
     display: flex;
     flex-direction: column;
@@ -30,7 +28,7 @@
     align-items: baseline;
 }
 
-.process__item h2 {
+.process__wrapper--item h2 {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 700;
     line-height: clamp(2.5rem, 5vw, 4rem);
@@ -38,13 +36,13 @@
     color: var(--dark-color);
 }
 
-.process__item p {
+.process__wrapper--item p {
     font-size: 1.7rem;
     opacity: 0.9;
     color: var(--secondary-color);
 }
 
-.process-box {
+.item__box {
     padding: 3rem;
     
     display: flex;
@@ -58,7 +56,7 @@
     box-shadow: 0.1rem 0.1rem 1rem 0 rgb(0 0 0 / 10%);
 }
 
-.process-box i {
+.item__box i {
     font-size: 3rem;
     padding: 2rem;
     border-radius: 1rem;
@@ -68,14 +66,14 @@
     border: 1px solid;
 }
 
-.process-box h3 {
+.item__box h3 {
     font-size: 2rem;
     font-weight: 600;
     color: var(--dark-color);
     margin-bottom: 1.5rem;
 }
-  
-.process-box p {
+
+.item__box p {
     font-size: 1.5rem;
     font-weight: 400;
     color: var(--secondary-color);
@@ -94,28 +92,28 @@ i.fa-user-check{
     background-color: #e74c3c;
 }
 
-.process-box:hover{
+.item__box:hover{
     transition: all 0.3s ease-in-out;
     box-shadow: 3rem 2.5rem 3rem 2rem none;
     -webkit-box-shadow: 3rem 2.5rem 3rem 2rem none;
     transform: translateY(-2rem);
 }
 
-.process-box:hover i.fa-arrow-right-to-bracket{
+.item__box:hover i.fa-arrow-right-to-bracket{
     color: #f39c12;
     background: snow;
     box-shadow: 0.1rem 0.1rem 1rem 0 #f39c12;
     border:1px solid #f39c12;
 }
 
-.process-box:hover i.fa-handshake{
+.item__box:hover i.fa-handshake{
     color: #2980b9;
     background: snow;
     box-shadow: 0.1rem 0.1rem 1rem 0 #2980b9;
     border:1px solid #2980b9;
 }
 
-.process-box:hover i.fa-user-check{
+.item__box:hover i.fa-user-check{
     color: #e74c3c;
     background: snow;
     box-shadow: 0.1rem 0.1rem 1rem 0 #e74c3c;

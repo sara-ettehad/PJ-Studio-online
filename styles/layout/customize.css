@@ -1,12 +1,25 @@
-
-.Customize__wrapper{
+.customize__wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.Customize__item--right{
+.customize__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.customize__item--left img{
+    margin-left: 50px;
+    opacity: .9rem;
+    width: 600px;
+    height: 500px;
+}
+
+.customize__item--right{
     display: flex;
     margin-right: 73px;
     flex-direction: column;
@@ -15,7 +28,7 @@
     margin-right: 40px;
 }
 
-.Customize__item--right h1{
+.customize__item--right h1{
     font-size: 7.5rem;
     font-weight: 500;
     color: var(--dark-color);
@@ -23,20 +36,13 @@
     line-height: 8rem;
 }
 
-.Customize__item--right p{
+.customize__item--right p{
     color: var(--secondary-color);
     font-size: 1.5rem;
     margin-left: 3px;
 }
 
-.Customize__item--left img{
-    margin-left: 50px;
-    opacity: .9rem;
-    width: 600px;
-    height: 500px;
-}
-
-.Customize-columns{
+.customize__columns{
     border-radius: 15px;
     height: 100px;
     margin-top: 22px;
@@ -45,7 +51,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 4px 5px 6px;
 }
 
-.Customize-columns:hover{
+.customize__columns:hover{
     
     transition: all 0.3s ease-in-out;
     box-shadow: 3rem 2.5rem 3rem 2rem none;
