@@ -22,15 +22,14 @@
 html{
     font-size: 62.5%;
     font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
+    overscroll-behavior: none;
 }
 
 body{
-    position: relative;
   font-size: clamp(1rem, 5vmin, 1.5rem);
   background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #fff 75%);
-  background-size: cover;
-  background-repeat: no-repeat;
+  
+
 }
 
 main{

@@ -1,5 +1,4 @@
 #header{
-    min-height: 10vh;
 }
 
 .navbar__wrapper{
@@ -35,3 +34,24 @@
     color: var(--primary-color);
 }
 
+.menu{
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .navbar__wrapper{
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar__wrapper{
+        gap: 0.5rem;
+    }
+    .navbar__wrapper--list{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}

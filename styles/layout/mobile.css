@@ -95,3 +95,14 @@ i.fa-apple{
     box-shadow: 0.1rem 0.1rem 1rem 0 #90f1ef;
     border:1px solid #90f1ef;
 }
+
+@media (max-width: 850px){
+    .mobile__item--left{
+        display: none;
+    }
+    .mobile__item--right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

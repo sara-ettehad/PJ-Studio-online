@@ -1,9 +1,11 @@
+
+
+@import "./header.css";
+@import "./hero.css";
 @import "./customize.css";
 @import "./features.css";
 @import "./mobile.css";
-@import "./header.css";
-@import "./hero.css";
 @import "./process.css";
 @import "./reset.css";
 @import "./signup.css";
-@import "./footer.css"
+@import "./footer.css";
