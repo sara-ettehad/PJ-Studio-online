@@ -1,3 +1,5 @@
+
+
 .footer__wrapper{
     margin: auto;
     display: grid;
@@ -86,6 +88,7 @@
     left: -94px;
     top: 5px;
 }
+
 
 @media (max-width: 1200px) {
     .footer__wrapper{

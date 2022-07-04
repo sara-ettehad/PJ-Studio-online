@@ -1,5 +1,8 @@
-.mobile__wrapper{
+#mobile{
     background-color: #f4f4ff;
+}
+
+.mobile__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;

@@ -59,14 +59,16 @@
     }
 }
 
+
 @media (max-width: 850px) {
     .signup__wrapper{
         display: grid;
         grid-template-columns: 1fr;
     }
-    
     .signup__item--right{
-       display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .signup__item--left{
         display: flex;

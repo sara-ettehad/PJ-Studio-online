@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    gap: 50px;
 }
 
 .customize__item--left img{
@@ -18,12 +19,10 @@
 }
 
 .customize__item--right{
-    display: flex;
-    margin-right: 73px;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns:  1fr;
     align-items: flex-end;
     margin-top: 20px;
-    margin-right: 40px;
 }
 
 .customize__item--right h1{
@@ -80,14 +79,17 @@
     .customize__wrapper{
         display: grid;
         grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
     }
     .customize__item--left {
-        display: none;
-    }
-    .customize__item--right{
         display: flex;
         align-items: center;
+        justify-self: center;
     }
 }
-@media (max-width: 430px) {
+@media (max-width: 550px) {
+    .customize__item--left {
+        display: none
+    }
 }
