@@ -1,13 +1,8 @@
-#mobile{
-    justify-content: center;
-}
-
 .mobile__wrapper{
     background-color: #f4f4ff;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    align-items: center;
 }
 
 .mobile__item--left{
@@ -15,18 +10,16 @@
 }
 
 .mobile__item--left img{
-    opacity: .9rem;
     width: 250px;
     height: 500px;
 }
 
 .mobile__item--right{
-    max-width: 500px;
+    width: 500px;
     padding: 8rem 3rem;
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .mobile__item--right h1{
@@ -40,15 +33,16 @@
 .mobile__item--right p{
     color: var(--secondary-color);
     font-size: 1.5rem;
+    margin-left: 5px;
 }
 
 .item__icons{
     display: flex;
-    justify-content: center;
     flex-direction: row;
     margin-top: 1rem;
     margin-right: 2rem;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .icons{
@@ -96,13 +90,35 @@ i.fa-apple{
     border:1px solid #90f1ef;
 }
 
-@media (max-width: 850px){
+@media (max-width: 890px){
     .mobile__item--left{
         display: none;
     }
+    .mobile__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 530px){
     .mobile__item--right{
         display: flex;
-        justify-content: center;
         align-items: center;
+        text-align: center;
+        width: auto;
+    }
+    .item__icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 500px) {
+    .mobile__item--right h1{
+        font-size: 3.5rem;
     }
 }
