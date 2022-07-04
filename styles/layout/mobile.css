@@ -108,6 +108,9 @@ i.fa-apple{
         text-align: center;
         width: auto;
     }
+    .mobile__item--right h1{
+        font-size: 3.5rem;
+    }
     .item__icons{
         display: flex;
         flex-direction: column;
