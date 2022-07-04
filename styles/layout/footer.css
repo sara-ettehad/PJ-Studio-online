@@ -3,8 +3,6 @@
     display: grid;
     grid-template-columns: 1.7fr 1fr 1fr 1fr;
     justify-content: space-between;
-    gap: 2rem 2rem;
-    padding-bottom: 4rem;
 }
 
 .footer__wrapper p{
@@ -48,7 +46,7 @@
 
 .footer__grid--second{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 1fr;
     margin-top: 45px;
 }
 

@@ -6,7 +6,8 @@
 }
 
 .mobile__item--left{
-    max-width: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .mobile__item--left img{
@@ -116,9 +117,5 @@ i.fa-apple{
         display: flex;
         flex-direction: row;
     }
-}
-@media (max-width: 500px) {
-    .mobile__item--right h1{
-        font-size: 3.5rem;
-    }
+    
 }
