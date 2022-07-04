@@ -1,13 +1,10 @@
-#footer{
-}
-
 .footer__wrapper{
     margin: auto;
-    padding: 3rem min(7rem, 5vw);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: 1.7fr 1fr 1fr 1fr;
     justify-content: space-between;
     gap: 2rem 2rem;
+    padding-bottom: 4rem;
 }
 
 .footer__wrapper p{
@@ -90,4 +87,19 @@
     position: relative;
     left: -94px;
     top: 5px;
+}
+
+@media (max-width: 1200px) {
+    .footer__wrapper{
+        display: grid;
+        grid-template-columns: 1.7fr 1fr;
+    }
+   
+}
+@media (max-width: 700px) {
+    .footer__wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
 }
