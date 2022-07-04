@@ -16,6 +16,8 @@
 .hero__item--left h1{
     font-size: 6rem;
     color: var(--dark-color);
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 .hero__item--left p{
@@ -42,6 +44,27 @@
 .svg{
     position: relative;
     top: 15px;
+    animation: mymove 10s infinite;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
 }
 
 @media (max-width: 1100px) {
