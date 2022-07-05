@@ -1,8 +1,9 @@
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger= document.querySelector(".hamburger");
-const closeIcon= document.querySelector(".fa-xmark");
+const closeIcon= document.querySelector(".fa-xmark-large");
 const menuIcon = document.querySelector(".fa-bars");
+const mybutton = document.getElementById("myBtn");
 
 function toggleMenu() {
   if (menu.classList.contains("showMenu")) {
@@ -16,11 +17,17 @@ function toggleMenu() {
   }
 }
 
-hamburger.addEventListener("click", toggleMenu);
+hamburger.addEventListener("click", toggleMenu)
 
-const mybutton = document.getElementById("myBtn");
+menuItems.forEach( 
+    function(menuItem) { 
+      menuItem.addEventListener("click", toggleMenu);
+    }
+)
 
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
 }
+
+mybutton.addEventListener("click", topFunction);

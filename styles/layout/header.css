@@ -32,11 +32,12 @@
 }
 
 .hamburger{
-  padding: 4px;
+  padding: 14px;
   border: none;
   background: transparent;
   cursor: pointer;
   display: none;
+  font-size: medium;
 }
 
 .menu{
@@ -47,11 +48,11 @@
     right: 0;
     background: transparent;
     list-style: none;
-    padding-top: 10rem;
+    padding-top: 4rem;
     padding-right: 2.5rem;
 }
 
-.fa-xmark{
+.fa-xmark-large{
     display: none;
 }
 
@@ -69,7 +70,7 @@
         display: none;
     }
     .hamburger {
-        display: flex;
+        display:block;
     }
 }
 
