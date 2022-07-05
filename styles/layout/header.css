@@ -41,15 +41,15 @@
 }
 
 .menu{
-    position: fixed;
-    transform: translateY(-100%);
+    position: relative;
+    transform: translateY(-120%);
     transition: transform 0.2s;
     top: 0;
     right: 0;
     background: transparent;
     list-style: none;
-    padding-top: 4rem;
-    padding-right: 2.5rem;
+    padding-top: 0rem;
+    padding-right: 2rem;
 }
 
 .fa-xmark-large{
