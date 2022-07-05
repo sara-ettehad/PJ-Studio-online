@@ -81,8 +81,16 @@
     .signup__wrapper{
         display: grid;
         grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .signup__item--left h1{
         font-size: 3.5rem;
+    }
+    .signup__item--right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
