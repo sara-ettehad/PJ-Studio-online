@@ -69,9 +69,7 @@
         text-align: center;
     }
     .signup__item--right{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: none;
     }
     .signup__item--left{
         display: flex;
