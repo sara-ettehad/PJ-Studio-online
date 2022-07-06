@@ -42,6 +42,12 @@
     margin-top: 30px;
 }
 
+.signup__item--right{
+    width: 400px;
+    display: flex;
+    justify-content: end;
+}
+
 @media (max-width: 1300px) {
     .signup__wrapper{
         display: grid;
