@@ -29,7 +29,7 @@
 .signup__item--right{
     display: flex;
     align-items: center;
-    justify-content: c;
+    justify-content: center;
 }
 
 .signup__item--right img{
