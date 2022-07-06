@@ -32,20 +32,9 @@
     justify-content: center;
 }
 
-.signup__item--right img{
-    width: 400px;
-    height: 250px;
-}
-
 .btn__signup{
     width: 180px;
     margin-top: 30px;
-}
-
-.signup__item--right{
-    width: 400px;
-    display: flex;
-    justify-content: end;
 }
 
 @media (max-width: 1300px) {
