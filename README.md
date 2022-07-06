@@ -6,7 +6,7 @@
   <p align="center">
     Helps you organize your income and expenses!
    </p> 
-    <a align="center" href="https://parisa-ettehad.github.io/PJ-Studio/">View Live
+    <a align="center" href="https://parisa-ettehad.github.io/PJ-Studio-online/">View Live
     </a>
 </div>
 
