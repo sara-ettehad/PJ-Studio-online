@@ -68,7 +68,7 @@
         justify-content: center;
         text-align: center;
     }
-    .signup__item--right{
+    .signup__item--right img{
         display: none;
     }
     .signup__item--left{
