@@ -38,7 +38,7 @@ Of course, It is not the best platform yet, but we are adding new features every
 
 - [&#xD7;] Implement Landing page
 
-See the [open issues](https://parisa-ettehad.github.io/PJ-Studio-online/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/parisa-ettehad/PJ-Studio-online/issues) for a full list of proposed features (and known issues).
 
 ### Contributing
 ---
