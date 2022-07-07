@@ -32,6 +32,14 @@ Of course, It is not the best platform yet, but we are adding new features every
 + [CSS](https://www.w3.org/Style/CSS/Overview.en.html) 
 + [JavaScript](https://www.javascript.com/) 
 
+
+ ## Roadmap
+---
+
+- [&#xD7;] Implement Landing page
+
+See the [open issues](https://parisa-ettehad.github.io/PJ-Studio-online/issues) for a full list of proposed features (and known issues).
+
 ### Contributing
 ---
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
